@@ -1,19 +1,24 @@
+import { BrowserRouter as Router, Route, Routes  } from "react-router-dom";
+
 import './styles/app.scss';
+
+//layout
+import Header from "./layout/Header";
+
+
 
 function App() {
   return (
-    <>
-      <div className="Hello-text">
-        Hello mundo
+    <Router> 
+      <Header />
 
-        <div className="Hello-mundo">
+      <Routes>
+        <Route>
 
-          Olá Mundo!!
+        </Route>
+      </Routes>
 
-        </div>
-
-      </div>
-    </>
+    </Router>
   )
 }
 
