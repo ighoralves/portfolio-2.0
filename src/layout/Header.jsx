@@ -22,7 +22,7 @@ function Header() {
               <Link to="skills">Habilidades</Link>
             </li>
             <li>
-              <Link to="company">Sobre</Link>
+             
             </li>
           </ul>
         </nav>
